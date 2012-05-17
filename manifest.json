@@ -1,0 +1,16 @@
+{
+  "name": "OMGConv usage example",
+
+  "version": "1.0.0",
+  "description": "OMGConv usage example",
+
+  "app": {
+    "launch": {
+      "local_path": "test.html"
+    }
+  },
+  "permissions": [
+    "http://*/*",
+    "https://*/*"
+  ]
+}

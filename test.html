@@ -1,0 +1,26 @@
+﻿<html>
+<head>
+	<title>(see console) OMGConv testing page</title>
+	<script src="omgconv.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script>
+		var query = {
+			Search:'трудно быть богом'
+		};
+		$.ajax(
+			'http://lib.ru/GrepSearch',
+			{
+				type : 'GET',
+				headers : {
+					'Content-type':'application/x-www-form-urlencoded; charset=windows-1251'
+				},
+				data : OMGConv.encodeObject(query)
+			}
+		);
+
+	</script>
+</head>
+<body>
+
+</body>
+</html>
